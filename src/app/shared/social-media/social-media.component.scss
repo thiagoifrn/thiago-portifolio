@@ -1,0 +1,13 @@
+div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+@media (min-width: 1080px) {
+  div {
+    justify-content: flex-start;
+    gap: 12px;
+  }
+}

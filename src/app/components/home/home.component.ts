@@ -1,15 +1,20 @@
 import { Component } from '@angular/core';
-import { HeaderComponent } from "../../shared/header/header.component";
-import { ButtonPrimaryComponent } from "../../shared/button-primary/button-primary.component";
-import { ImageHeaderComponent } from "../image-header/image-header.component";
-import { AboutComponent } from "../about/about.component";
+import { HeaderComponent } from '../../shared/header/header.component';
+import { ButtonPrimaryComponent } from '../../shared/button-primary/button-primary.component';
+import { ImageHeaderComponent } from '../image-header/image-header.component';
+import { AboutComponent } from '../about/about.component';
+import { FooterComponent } from '../../shared/social-media/social-media.component';
 
 @Component({
   selector: 'app-home',
-  imports: [HeaderComponent, ButtonPrimaryComponent, ImageHeaderComponent, AboutComponent],
+  imports: [
+    HeaderComponent,
+    ButtonPrimaryComponent,
+    ImageHeaderComponent,
+    AboutComponent,
+    FooterComponent,
+  ],
   templateUrl: './home.component.html',
-  styleUrl: './home.component.scss'
+  styleUrl: './home.component.scss',
 })
-export class HomeComponent {
-
-}
+export class HomeComponent {}
