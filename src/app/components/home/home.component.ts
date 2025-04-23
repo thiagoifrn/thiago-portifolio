@@ -3,7 +3,8 @@ import { HeaderComponent } from '../../shared/header/header.component';
 import { ButtonPrimaryComponent } from '../../shared/button-primary/button-primary.component';
 import { ImageHeaderComponent } from '../image-header/image-header.component';
 import { AboutComponent } from '../about/about.component';
-import { FooterComponent } from '../../shared/social-media/social-media.component';
+import { SocialMediaComponent } from '../../shared/social-media/social-media.component';
+import { FooterComponent } from '../../shared/footer/footer.component';
 
 @Component({
   selector: 'app-home',
@@ -12,9 +13,17 @@ import { FooterComponent } from '../../shared/social-media/social-media.componen
     ButtonPrimaryComponent,
     ImageHeaderComponent,
     AboutComponent,
+    SocialMediaComponent,
     FooterComponent,
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss',
 })
-export class HomeComponent {}
+export class HomeComponent {
+  baixarPDF() {
+    const link = document.createElement('a');
+    link.href = 'public/assets/meu-arquivo.pdf';
+    link.download = 'Curriculo_Thiago_Pereira_De_Souza.pdf';
+    link.click();
+  }
+}

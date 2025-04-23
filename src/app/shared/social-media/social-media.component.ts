@@ -9,4 +9,4 @@ import { GithubComponent } from '../icons/github/github.component';
   templateUrl: './social-media.component.html',
   styleUrl: './social-media.component.scss',
 })
-export class FooterComponent {}
+export class SocialMediaComponent {}

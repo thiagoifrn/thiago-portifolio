@@ -8,4 +8,9 @@ import { Component, Input } from '@angular/core';
 })
 export class ButtonPrimaryComponent {
   @Input() text: string = '';
+  @Input() onClick?: () => void;
+
+  handleClick() {
+    if (this.onClick) this.onClick();
+  }
 }
