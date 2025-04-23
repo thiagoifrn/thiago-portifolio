@@ -1,19 +1,24 @@
 <app-header />
 <section>
   <div>
-    <span>Software developer</span>
+    <span>Software Developer</span>
     <h1>Thiago Pereira</h1>
     <p>
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate saepe
-      error cupiditate veritatis eius, praesentium consequatur dolorum sapiente
-      ab non natus recusandae modi ratione in magnam? Beatae delectus laudantium
-      libero.
+      Com mais de quatro anos de experiência como desenvolvedor de software,
+      participei de diversos projetos, incluindo entregas para empresas como
+      Itaú, Iti, MoveMoney e Tidmo. Durante essa jornada, adquiri experiência
+      prática na aplicação de resolução de problemas no desenvolvimento,
+      entregando aplicações escaláveis, performáticas e com foco em gerar valor
+      para o negócio.
     </p>
     <button-primary text="Download CV" [onClick]="baixarPDF"></button-primary>
   </div>
   <image-header></image-header>
 </section>
 <about />
-<button-primary text="Ver todos os projetos"></button-primary>
+<button-primary
+  text="Ver todos os projetos"
+  [onClick]="redirectGithub"
+></button-primary>
 <social-media />
 <app-footer />

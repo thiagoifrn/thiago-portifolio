@@ -20,12 +20,14 @@ import { FooterComponent } from '../../shared/footer/footer.component';
   styleUrl: './home.component.scss',
 })
 export class HomeComponent {
-
   baixarPDF() {
     const link = document.createElement('a');
     link.href = '/assets/Curriculo_Thiago_Pereira_De_Souza.pdf';
     link.download = 'Curriculo_Thiago_Pereira_De_Souza.pdf';
     link.click();
   }
-  
+
+  redirectGithub() {
+    window.open('https://github.com/thiagoifrn?tab=repositories', '_blank');
+  }
 }
