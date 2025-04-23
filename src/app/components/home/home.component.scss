@@ -1,0 +1,13 @@
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column-reverse;
+}
+
+@media (min-width: 1080px) {
+  section {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
