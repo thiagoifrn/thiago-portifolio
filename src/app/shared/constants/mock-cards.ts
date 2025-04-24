@@ -1,26 +1,30 @@
 export const PROJECTS = [
   {
-    title: 'Task Manager App',
-    tags: ['angular', 'typescript', 'rxjs', 'firebase'],
-    description:
-      'Uma aplicação web para gerenciar tarefas com autenticação, criação de projetos e colaboração em tempo real.',
-  },
-  {
     title: 'Portfólio Responsivo',
     tags: ['html', 'scss', 'angular', 'acessibilidade'],
     description:
       'Um site pessoal moderno com foco em acessibilidade, performance e responsividade.',
+    link: 'https://github.com/thiagoifrn/thiago-portifolio',
   },
   {
-    title: 'API Financeira',
-    tags: ['nestjs', 'typescript', 'mongodb', 'jwt'],
+    title: 'Desafio smartfit angular',
+    tags: ['angular', 'typescript', 'rxjs'],
     description:
-      'Backend robusto para controle financeiro com autenticação JWT e integração com banco MongoDB.',
+      'Esse é um pequeno projeto criado como base para a avaliação de habilidades técnicas para o papel de Front-end.',
+    link: 'https://github.com/thiagoifrn/desafio-smartfit-angular',
   },
   {
-    title: 'Dashboard de Vendas',
-    tags: ['angular', 'chart.js', 'rxjs'],
+    title: 'FullBikeFit',
+    tags: ['firebase', 'flutter', 'dart'],
     description:
-      'Dashboard interativo para visualização de dados de vendas com gráficos e filtros dinâmicos.',
+      'Aplicativo desenvolvido para ajudar na criação de relatório do antes e depois de um setup de uma bicicleta.',
+    link: 'https://github.com/thiagoifrn/fullBikeFit',
+  },
+  {
+    title: 'Controle de Veículos',
+    tags: ['Java', 'Spring Boot', 'PostgreSql'],
+    description:
+      'O projeto é uma API REST que faz o controle veículos de usuários. Em essência serão três endpoints , cadastro de usuário, cadastro de veículo e listagem de veículo para um usuário específico',
+    link: 'https://github.com/thiagoifrn/api-controle-veiculo',
   },
 ];

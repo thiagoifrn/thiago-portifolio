@@ -19,3 +19,12 @@
     }
   }
 }
+
+.icon-button {
+  display: flex;
+  justify-content: end;
+  padding-right: 20px;
+  cursor: pointer;
+  padding: 10px;
+  color: #8455ff;
+}
