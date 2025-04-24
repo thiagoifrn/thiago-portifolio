@@ -1,0 +1,17 @@
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+
+  @media (min-width: 600px) {
+    card-project {
+      flex: 1 1 calc(50% - 8px); // 2 por linha
+    }
+  }
+
+  @media (min-width: 1024px) {
+    card-project {
+      flex: 1 1 calc(33.333% - 10.6px); // opcional: 3 por linha no desktop
+    }
+  }
+}

@@ -1,0 +1,10 @@
+<h2>Projetos</h2>
+<div class="projects">
+  @for (project of projects; track $index) {
+  <card-project
+    [title]="project.title"
+    [tags]="project.tags"
+    [description]="project.description"
+  />
+  }
+</div>

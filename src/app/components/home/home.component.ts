@@ -5,6 +5,7 @@ import { ImageHeaderComponent } from '../image-header/image-header.component';
 import { AboutComponent } from '../about/about.component';
 import { SocialMediaComponent } from '../../shared/social-media/social-media.component';
 import { FooterComponent } from '../../shared/footer/footer.component';
+import { ListProjectsComponent } from "../../shared/list-projects/list-projects.component";
 
 @Component({
   selector: 'app-home',
@@ -15,7 +16,8 @@ import { FooterComponent } from '../../shared/footer/footer.component';
     AboutComponent,
     SocialMediaComponent,
     FooterComponent,
-  ],
+    ListProjectsComponent
+],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss',
 })
