@@ -12,6 +12,6 @@ export class HeaderComponent {
     const menssage = encodeURIComponent(
       'Olá, gostaria de entrar em contato contigo!'
     );
-    window.open(`https://wa.me/84988981921?text${menssage}`, '_blank');
+    window.open(`https://wa.me/5584988981921?text${menssage}`, '_blank');
   }
 }
