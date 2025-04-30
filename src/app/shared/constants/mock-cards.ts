@@ -14,11 +14,11 @@ export const PROJECTS = [
     link: 'https://github.com/thiagoifrn/desafio-smartfit-angular',
   },
   {
-    title: 'FullBikeFit',
-    tags: ['firebase', 'flutter', 'dart'],
+    title: 'Currency Exchange Rates App',
+    tags: ['Angular', 'TypeScript', 'RxJS', 'API Layer'],
     description:
-      'Aplicativo desenvolvido para ajudar na criação de relatório do antes e depois de um setup de uma bicicleta.',
-    link: 'https://github.com/thiagoifrn/fullBikeFit',
+      'Aplicativo web desenvolvido em Angular para consultar taxas de câmbio em tempo real utilizando a API do API Layer. Implementa fallback automático entre múltiplas chaves de API para garantir disponibilidade mesmo em caso de limite excedido. O projeto utiliza variáveis de ambiente com script de injeção dinâmico e está preparado para deploy contínuo via Netlify.',
+    link: 'https://github.com/thiagoifrn/Conversor-de-moedas',
   },
   {
     title: 'Controle de Veículos',
