@@ -1,23 +1,39 @@
 :host {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   background-color: #f0f0f0;
   border-radius: 4px;
   padding: 12px;
+}
 
-  .tambs {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 8px;
+.tambs {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
 
-    span {
-      padding: 4px;
-      background-color: #8455ff;
-      font-size: 12px;
-      color: #dbffff;
-      font-weight: 600;
-      border-radius: 2px;
-    }
+  span {
+    padding: 4px;
+    background-color: #8455ff;
+    font-size: 12px;
+    color: #dbffff;
+    font-weight: 600;
+    border-radius: 2px;
   }
+}
+
+p {
+  flex-grow: 1;
+  margin: 12px 0;
+}
+
+.actions {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 8px;
+  margin-top: auto; // Garante que fique no final mesmo que o conteúdo seja curto
 }
 
 .icon-button {

@@ -1,81 +1,69 @@
-**PortifolioWeb**
-================
+# 💼 Portfólio Profissional — Thiago Pereira
 
-**Introdução**
-------------
+Este é o repositório do meu portfólio pessoal, desenvolvido com Angular, destacando minhas habilidades, projetos e experiências profissionais. O objetivo é proporcionar uma visão clara e objetiva sobre minha trajetória como desenvolvedor.
 
-Este projeto foi gerado usando o [Angular CLI](https://github.com/angular/angular-cli) versão 19.2.5.
+## 🚀 Tecnologias Utilizadas
 
-**Desenvolvimento**
------------------
+- **Angular 17+** — Framework principal para construção da aplicação.
+- **TypeScript** — Linguagem principal para desenvolvimento.
+- **SCSS** — Pré-processador CSS para estilos mais organizados.
+- **Lucide Angular** — Biblioteca de ícones SVG para componentes visuais.
+- **Standalone Components** — Arquitetura moderna do Angular para modularização.
+- **Angular CLI** — Ferramenta para scaffolding e gerenciamento do projeto.
 
-### Iniciando o Servidor de Desenvolvimento
+## ✨ Funcionalidades
 
-Para iniciar o servidor de desenvolvimento local, execute o comando:
+- Design responsivo adaptado para diferentes dispositivos.
+- Seções dedicadas a projetos, habilidades e contato.
+- Componentes reutilizáveis para facilitar manutenção e escalabilidade.
+- Integração de ícones vetoriais com Lucide Angular.
 
-```bash
-ng serve
+## 📦 Instalação e Execução
+
+1. **Clone o repositório:**
+
+   ```bash
+   git clone https://github.com/thiagoifrn/thiago-portifolio.git
+   cd thiago-portifolio
+   ```
+
+2. **Instale as dependências:**
+
+   ```bash
+   npm install
+   ```
+
+3. **Inicie o servidor de desenvolvimento:**
+
+   ```bash
+   ng serve
+   ```
+
+   ([Thiago Pereira de Souza - GitHub](https://github.com/thiagoifrn/thiago-portifolio))
+
+4. **Acesse a aplicação:**
+   Abra o navegador e navegue até `http://localhost:4200/`.
+
+## 🛠️ Estrutura do Projeto
+
+O projeto segue a estrutura padrão do Angular com algumas personalizações:
+
 ```
 
-Uma vez que o servidor esteja em execução, abra seu navegador e navegue até `http://localhost:4200/`. A aplicação será recarregada automaticamente sempre que você modificar qualquer um dos arquivos de origem.
-
-**Criação de Componentes**
--------------------------
-
-### Gerando Novos Componentes
-
-O Angular CLI inclui ferramentas poderosas de criação de componentes. Para gerar um novo componente, execute o comando:
-
-```bash
-ng generate component nome-do-componente
+├── src/
+│   ├── app/
+│   │   ├── components/        # Componentes reutilizáveis
+│   │   ├── pages/             # Páginas principais do portfólio
+│   │   ├── modules/           # Módulos auxiliares (ex: LucideIconsModule)
+│   │   ├── app.component.ts   # Componente raiz
+│   │   └── app.routes.ts      # Configuração de rotas
+│   ├── assets/                # Imagens e outros recursos estáticos
+│   └── styles/                # Estilos globais (SCSS)
+├── angular.json               # Configuração do Angular CLI
+├── package.json               # Dependências e scripts
+└── README.md                  # Documentação do projeto
 ```
 
-Para obter uma lista completa de esquemas disponíveis (como `components`, `directives` ou `pipes`), execute o comando:
+## 📄 Licença
 
-```bash
-ng generate --help
-```
-
-**Construção do Projeto**
------------------------
-
-### Construindo o Projeto
-
-Para construir o projeto, execute o comando:
-
-```bash
-ng build
-```
-
-Isso irá compilar o seu projeto e armazenar os artefatos de construção no diretório `dist/`. Por padrão, a construção de produção otimiza a aplicação para desempenho e velocidade.
-
-**Testes Unitários**
-------------------
-
-### Executando Testes Unitários
-
-Para executar testes unitários com o [Karma](https://karma-runner.github.io), use o comando:
-
-```bash
-ng test
-```
-
-**Testes de Fim a Fim**
-----------------------
-
-### Executando Testes de Fim a Fim
-
-Para executar testes de fim a fim (e2e), execute o comando:
-
-```bash
-ng e2e
-```
-
-O Angular CLI não vem com um framework de teste de fim a fim por padrão. Você pode escolher um que atenda às suas necessidades.
-
-**Recursos Adicionais**
-----------------------
-
-### Mais Informações
-
-Para obter mais informações sobre o uso do Angular CLI, incluindo referências de comando detalhadas, visite a página [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli).
+Este projeto está licenciado sob a [MIT License](LICENSE).

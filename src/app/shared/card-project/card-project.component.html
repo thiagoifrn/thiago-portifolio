@@ -7,6 +7,17 @@
 <p>
   {{ description }}
 </p>
-<a href="{{ link }}" target="_blank" rel="noopener noreferrer">
-  <lucide-icon name="arrow-right" class="icon-button"> </lucide-icon>
-</a>
+<div class="actions">
+  @if (projectLink) {
+  <span aria-label="ir para aplicativo" title="ir para aplicativo">
+    <a href="{{ projectLink }}" target="_blank" rel="noopener noreferrer">
+      <lucide-icon name="globe" class="icon-button"> </lucide-icon>
+    </a>
+  </span>
+  }
+  <span aria-label="ir para github" title="ir para o github">
+    <a href="{{ githubLink }}" target="_blank" rel="noopener noreferrer">
+      <lucide-icon name="github" class="icon-button"> </lucide-icon>
+    </a>
+  </span>
+</div>

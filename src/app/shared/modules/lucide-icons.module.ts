@@ -1,13 +1,9 @@
 import { NgModule } from '@angular/core';
 import { LucideAngularModule } from 'lucide-angular';
-import { ArrowRight } from 'lucide-angular/src/icons';
-
-const icons = {
-  ArrowRight,
-};
+import { Github, Globe } from 'lucide-angular/src/icons';
 
 @NgModule({
-  imports: [LucideAngularModule.pick(icons)],
+  imports: [LucideAngularModule.pick({ Globe, Github })],
   exports: [LucideAngularModule],
 })
 export class LucideIconsModule {}

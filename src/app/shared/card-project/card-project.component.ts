@@ -8,8 +8,9 @@ import { LucideIconsModule } from '../modules/lucide-icons.module';
   styleUrl: './card-project.component.scss',
 })
 export class CardProjectComponent {
-  @Input() title!: string;
+  @Input() title: string = '';
   @Input() tags: string[] = [];
-  @Input() description!: string;
-  @Input() link!: string;
+  @Input() description: string = '';
+  @Input() projectLink?: string = '';
+  @Input() githubLink: string = '';
 }
